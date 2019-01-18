@@ -1,0 +1,159 @@
+remote06:~/cs220_proj4> ./vsim inputs/sample2
+page_size = 2 bytes
+mem_size = 16 bytes
+tlb_size = 4 entries
+max_jobs = 8 jobs
+filename = inputs/sample2
+
+Forking new process init.  Assigning pid: 0.
+
+Forking new process gcc.  Assigning pid: 1.
+
+Forking new process mozilla.  Assigning pid: 2.
+
+===================================================
+Switching to process: init. Corresponding pid: 0.
+===================================================
+
+STORING 000 as data in virtual address 00001.
+Virtual Address information: (VPN: 00000 PFN: 00000 OFFSET: 00001)
+Complete
+
+STORING 001 as data in virtual address 00003.
+Virtual Address information: (VPN: 00001 PFN: 00001 OFFSET: 00001)
+Complete
+
+STORING 002 as data in virtual address 00004.
+Virtual Address information: (VPN: 00002 PFN: 00002 OFFSET: 00000)
+Complete
+
+LOADING 001 as data from virtual address 00003.
+Virtual Address Information: (VPN: 00001 PFN: 00001 OFFSET: 00001)
+Value Loaded:  1
+Complete
+
+===================================================
+Switching to process: gcc. Corresponding pid: 1.
+===================================================
+
+STORING 000 as data in virtual address 00002.
+Virtual Address information: (VPN: 00001 PFN: 00003 OFFSET: 00000)
+Complete
+
+STORING 042 as data in virtual address 00003.
+Virtual Address information: (VPN: 00001 PFN: 00003 OFFSET: 00001)
+Complete
+
+===================================================
+Switching to process: mozilla. Corresponding pid: 2.
+===================================================
+
+STORING 002 as data in virtual address 00003.
+Virtual Address information: (VPN: 00001 PFN: 00004 OFFSET: 00001)
+Complete
+
+STORING 006 as data in virtual address 00004.
+Virtual Address information: (VPN: 00002 PFN: 00005 OFFSET: 00000)
+Complete
+
+LOADING 002 as data from virtual address 00003.
+Virtual Address Information: (VPN: 00001 PFN: 00004 OFFSET: 00001)
+Value Loaded:  2
+Complete
+
+===================================================
+Switching to process: gcc. Corresponding pid: 1.
+===================================================
+
+LOADING 042 as data from virtual address 00003.
+Virtual Address Information: (VPN: 00001 PFN: 00003 OFFSET: 00001)
+Value Loaded:  42
+Complete
+
+STORING 016 as data in virtual address 00003.
+Virtual Address information: (VPN: 00001 PFN: 00003 OFFSET: 00001)
+Complete
+
+===================================================
+Switching to process: init. Corresponding pid: 0.
+===================================================
+
+LOADING 000 as data from virtual address 00001.
+Virtual Address Information: (VPN: 00000 PFN: 00000 OFFSET: 00001)
+Value Loaded:  0
+Complete
+
+LOADING 002 as data from virtual address 00004.
+Virtual Address Information: (VPN: 00002 PFN: 00002 OFFSET: 00000)
+Value Loaded:  2
+Complete
+
+STORING 008 as data in virtual address 00005.
+Virtual Address information: (VPN: 00002 PFN: 00002 OFFSET: 00001)
+Complete
+
+STORING 009 as data in virtual address 00007.
+Virtual Address information: (VPN: 00003 PFN: 00006 OFFSET: 00001)
+Complete
+
+STORING 011 as data in virtual address 00009.
+Virtual Address information: (VPN: 00004 PFN: 00007 OFFSET: 00001)
+Complete
+
+LOADING 008 as data from virtual address 00005.
+Virtual Address Information: (VPN: 00002 PFN: 00002 OFFSET: 00001)
+Value Loaded:  8
+Complete
+
+LOADING 009 as data from virtual address 00007.
+Virtual Address Information: (VPN: 00003 PFN: 00006 OFFSET: 00001)
+Value Loaded:  9
+Complete
+
+STORING 012 as data in virtual address 00011.
+Virtual Address information: (VPN: 00005 PFN: 00000 OFFSET: 00001)
+Complete
+
+STORING 010 as data in virtual address 00013.
+Virtual Address information: (VPN: 00006 PFN: 00001 OFFSET: 00001)
+Complete
+
+LOADING 008 as data from virtual address 00005.
+Virtual Address Information: (VPN: 00002 PFN: 00002 OFFSET: 00001)
+Value Loaded:  8
+Complete
+
+STORING 011 as data in virtual address 00015.
+Virtual Address information: (VPN: 00007 PFN: 00000 OFFSET: 00001)
+Complete
+
+LOADING 008 as data from virtual address 00005.
+Virtual Address Information: (VPN: 00002 PFN: 00002 OFFSET: 00001)
+Value Loaded:  8
+Complete
+
+LOADING 000 as data from virtual address 00001.
+Virtual Address Information: (VPN: 00000 PFN: 00002 OFFSET: 00001)
+Value Loaded:  0
+Complete
+
+===================================================
+Switching to process: gcc. Corresponding pid: 1.
+===================================================
+
+LOADING 000 as data from virtual address 00002.
+Virtual Address Information: (VPN: 00001 PFN: 00003 OFFSET: 00000)
+Value Loaded:  0
+Complete
+
+
+-----------------------
+Statistics:
+-----------------------
+Reads:                 11
+Writes:                14
+TLB Hits:               9
+Page Faults:           12
+Disk IO:          5
+
+Effective Mean Access Time:          120003290.000000 ns

@@ -1,0 +1,94 @@
+remote06:~/cs220_proj4> ./vsim inputs/sample3
+page_size = 2 bytes
+mem_size = 16 bytes
+tlb_size = 4 entries
+max_jobs = 8 jobs
+filename = inputs/sample3
+
+Forking new process init.  Assigning pid: 0.
+
+===================================================
+Switching to process: init. Corresponding pid: 0.
+===================================================
+
+STORING 037 as data in virtual address 00000.
+Virtual Address information: (VPN: 00000 PFN: 00000 OFFSET: 00000)
+Complete
+
+STORING 021 as data in virtual address 00001.
+Virtual Address information: (VPN: 00000 PFN: 00000 OFFSET: 00001)
+Complete
+
+LOADING 021 as data from virtual address 00001.
+Virtual Address Information: (VPN: 00000 PFN: 00000 OFFSET: 00001)
+Value Loaded:  21
+Complete
+
+STORING 010 as data in virtual address 00002.
+Virtual Address information: (VPN: 00001 PFN: 00001 OFFSET: 00000)
+Complete
+
+STORING 011 as data in virtual address 00003.
+Virtual Address information: (VPN: 00001 PFN: 00001 OFFSET: 00001)
+Complete
+
+STORING 042 as data in virtual address 00004.
+Virtual Address information: (VPN: 00002 PFN: 00002 OFFSET: 00000)
+Complete
+
+LOADING 021 as data from virtual address 00001.
+Virtual Address Information: (VPN: 00000 PFN: 00000 OFFSET: 00001)
+Value Loaded:  21
+Complete
+
+LOADING 010 as data from virtual address 00002.
+Virtual Address Information: (VPN: 00001 PFN: 00001 OFFSET: 00000)
+Value Loaded:  10
+Complete
+
+LOADING 011 as data from virtual address 00003.
+Virtual Address Information: (VPN: 00001 PFN: 00001 OFFSET: 00001)
+Value Loaded:  11
+Complete
+
+LOADING 042 as data from virtual address 00004.
+Virtual Address Information: (VPN: 00002 PFN: 00002 OFFSET: 00000)
+Value Loaded:  42
+Complete
+
+LOADING 037 as data from virtual address 00000.
+Virtual Address Information: (VPN: 00000 PFN: 00000 OFFSET: 00000)
+Value Loaded:  37
+Complete
+
+LOADING 010 as data from virtual address 00002.
+Virtual Address Information: (VPN: 00001 PFN: 00001 OFFSET: 00000)
+Value Loaded:  10
+Complete
+
+LOADING 011 as data from virtual address 00003.
+Virtual Address Information: (VPN: 00001 PFN: 00001 OFFSET: 00001)
+Value Loaded:  11
+Complete
+
+LOADING 042 as data from virtual address 00004.
+Virtual Address Information: (VPN: 00002 PFN: 00002 OFFSET: 00000)
+Value Loaded:  42
+Complete
+
+LOADING 021 as data from virtual address 00001.
+Virtual Address Information: (VPN: 00000 PFN: 00000 OFFSET: 00001)
+Value Loaded:  21
+Complete
+
+
+-----------------------
+Statistics:
+-----------------------
+Reads:                 10
+Writes:                 5
+TLB Hits:              12
+Page Faults:            3
+Disk IO:          0
+
+Effective Mean Access Time:          30000720.000000 ns
