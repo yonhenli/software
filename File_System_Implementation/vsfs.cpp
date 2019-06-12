@@ -1,11 +1,3 @@
-//
-//  main.cpp
-//  vsfs
-//
-//  Created by IwfWcf on 13-2-21.
-//  Copyright (c) 2013年 IwfWcf. All rights reserved.
-//
-
 #include <iostream>
 #include <stdio.h>
 #include <vector>
